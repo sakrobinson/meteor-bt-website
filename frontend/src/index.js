@@ -1,5 +1,10 @@
-const express = require('express');
-const app = express();
-const PORT = process.env.PORT || 3000;
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-app.use(express.json());
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
