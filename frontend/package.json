@@ -1,6 +1,6 @@
 {
     "dependencies": {
-      // ... your dependencies go here
+      
     },
     "scripts": {
       "start": "react-scripts start",
@@ -8,5 +8,5 @@
       "test": "react-scripts test",
       "eject": "react-scripts eject"
     }
-    // ... other properties might go here
+    
   }
