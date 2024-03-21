@@ -1,4 +1,8 @@
 {
+    "name": "frontend",
+    "version": "1.0.0",
+    "description": "A React frontend for the Meteor BT website",
+    "main": "index.js",
     "dependencies": {
       
     },
