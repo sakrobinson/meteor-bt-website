@@ -1,8 +1,12 @@
-"dependencies": {
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+{
+    "dependencies": {
+      // ... your dependencies go here
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    }
+    // ... other properties might go here
   }
-}
