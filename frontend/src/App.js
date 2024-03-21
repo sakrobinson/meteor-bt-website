@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import ActualsTable from './components/ActualsTable';
-import ForecastsTable from './components/ForecastsTable';
+//import ActualsTable from './components/ActualsTable';
+//import ForecastsTable from './components/ForecastsTable';
 
 const App = () => {
   return (
@@ -10,8 +10,7 @@ const App = () => {
         {/* Other routes */}
         <Route path="/weather-data" element={
           <div>
-            <ActualsTable />
-            <ForecastsTable />
+            <TestPage/>
           </div>
         } />
         {/* More routes can be added here */}
