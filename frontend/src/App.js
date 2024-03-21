@@ -1,20 +1,21 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ActualsTable from './components/ActualsTable';
 import ForecastsTable from './components/ForecastsTable';
 
 const App = () => {
   return (
     <Router>
-      <Switch>
+      <Routes>
         {/* Other routes */}
-        <Route path="/weather-data" exact>
+        <Route path="/weather-data" element={
           <div>
             <ActualsTable />
             <ForecastsTable />
           </div>
-        </Route>
-      </Switch>
+        } />
+        {/* More routes can be added here */}
+      </Routes>
     </Router>
   );
 };
