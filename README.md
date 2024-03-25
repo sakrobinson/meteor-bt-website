@@ -3,7 +3,7 @@
 ## Features:
 - subpage of meteor-bt.com
 - Hosted on VPS via NGINX (login required)
-- Minimalist design, mirroring the feel (fonts, styling, colors) of this: https://app.corcel.io/chat 
+- Minimalist design, mirroring the feel (fonts, styling, colors) of this: https://app.corcel.io/chat; and this: https://taostats.io/
 - Displays Figures and tables of weather forecasts vs actual weather. User selectable variables via dropdown.
     * User choice of Weather metric: Precipitation, Temperature, Humidity, Windspeed. From openmeteo.
     * Map of Error (Actual - Forecasted), Actual, or Forecasted (choice) with a raster land mask. Ideal would be a rotating globe with city name callouts and error interpolated between cities, and city names displayed. More accessible would be a flat map projection of same (Goode’s Homolosine, or Winkel Tripel prpoojection). Designed to show the user a global view of the 
