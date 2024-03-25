@@ -2,7 +2,7 @@
 
 ## Features:
 - subpage of meteor-bt.com
-- Hosted on VPS via NGINX (login required)
+- Hosted on VPS via NGINX (login required): 38.242.246.51
 - Minimalist design, mirroring the feel (fonts, styling, colors) of this: https://app.corcel.io/chat; and this: https://taostats.io/
 - Displays Figures and tables of weather forecasts vs actual weather. User selectable variables via dropdown.
     * User choice of Weather metric: Precipitation, Temperature, Humidity, Windspeed. From openmeteo.
